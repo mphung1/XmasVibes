@@ -1,0 +1,130 @@
+body {
+  font-family: 'Nunito', cursive;
+  margin: 5%;
+  margin-top: 0;
+}
+
+
+a.c1 {
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+#info {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#info_start {
+  margin-bottom: 0px;
+}
+
+
+#div_start {
+  float: right;
+}
+
+#headline {
+  text-decoration: none
+}
+
+#results {
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  min-height: 150px;
+}
+
+#start_button {
+  border: 0;
+  background-color:transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#start_button:hover {
+  color: gray;
+}
+
+button {
+  cursor: pointer;
+}
+
+#play {
+  background-color: indianred;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+#play:hover {
+  background-color: firebrick;
+}
+
+#stop {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+#stop:hover{
+  background-color: seagreen;
+}
+
+.interim {
+  color: gray;
+}
+
+.final {
+  color: black;
+  padding-right: 3px;
+}
+
+.button {
+  display: none;
+}
+
+.marquee {
+  margin: 20px auto;
+}
+
+#buttons {
+  margin: 10px 0;
+  position: relative;
+  top: -50px;
+}
+
+#copy {
+  margin-top: 20px;
+}
+
+#copy > div {
+  display: none;
+  margin: 0 70px;
+}
+
+#audio-play {
+  display: flex;
+}
+
+#audio-play div {
+  width: 50vw;
+}
